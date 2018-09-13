@@ -4,6 +4,21 @@
     <dimen name="detail_body_text_size">22sp</dimen>
     <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
 
+    <dimen name="xsmall">4dp</dimen>
+    <dimen name="small">6dp</dimen>
+    <dimen name="medium">8dp</dimen>
+    <dimen name="large">16dp</dimen>
+    <dimen name="xlarge">24dp</dimen>
+
+    <dimen name="text_xsmall">13sp</dimen>
+    <dimen name="text_small">15sp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_large">18sp</dimen>
+    <dimen name="text_xlarge">24sp</dimen>
+
+    <dimen name="elevation_small">4dp</dimen>
+    <dimen name="elevation_medium">4dp</dimen>
+
     <dimen name="fab_elevation">2dp</dimen>
     <dimen name="fab_press_translation_z">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>

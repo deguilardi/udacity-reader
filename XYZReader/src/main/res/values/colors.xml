@@ -17,9 +17,15 @@
 
 <resources>
     <color name="photo_placeholder">#ccc</color>
+    <color name="overlay">#33000000</color>
 
     <color name="theme_primary">#04561A</color>
-    <color name="theme_primary_dark">#04561A</color>
-    <color name="theme_accent">#04561A</color>
+    <color name="theme_primary_light">#03852B</color>
+    <color name="theme_primary_dark">#023610</color>
+    <color name="theme_accent">#dd6600</color>
+    <color name="theme_text">#666666</color>
+    <color name="theme_text_light">#999999</color>
+    <color name="theme_text_secondary">#ffffff</color>
+    <color name="theme_text_background">#ffffff</color>
     <color name="ltgray">#ffe0e0e0</color>
 </resources>

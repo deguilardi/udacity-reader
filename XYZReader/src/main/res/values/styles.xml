@@ -15,14 +15,52 @@
      limitations under the License.
 -->
 
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-
+        <item name="colorPrimary">@color/theme_primary</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark</item>
+        <item name="colorAccent">@color/theme_accent</item>
+        <item name="android:textColorPrimary">@color/theme_text</item>
+        <item name="android:textColorSecondary">@color/theme_text_secondary</item>
     </style>
 
     <style name="Theme.Bacon.Detail">
-        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent</item>
+    </style>
+
+    <style name="ListItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginLeft">@dimen/small</item>
+        <item name="android:layout_marginRight">@dimen/small</item>
+    </style>
+
+    <style name="ListItem.Title">
+        <item name="android:layout_marginTop">@dimen/xsmall</item>
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textColor">@color/theme_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">4</item>
+    </style>
+
+    <style name="ListItem.Author">
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginTop">@dimen/xsmall</item>
+        <item name="android:textSize">@dimen/text_xsmall</item>
+        <item name="android:textColor">@color/theme_text_light</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="ListItem.Date">
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingBottom">@dimen/xsmall</item>
+        <item name="android:textSize">@dimen/text_xsmall</item>
+        <item name="android:textColor">@color/theme_text_light</item>
+        <item name="android:gravity">right</item>
     </style>
 
 </resources>
