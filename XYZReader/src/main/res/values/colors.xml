@@ -17,7 +17,7 @@
 
 <resources>
     <color name="photo_placeholder">#ccc</color>
-    <color name="overlay">#33000000</color>
+    <color name="overlay">#55000000</color>
 
     <color name="theme_primary">#04561A</color>
     <color name="theme_primary_light">#03852B</color>

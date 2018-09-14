@@ -15,7 +15,7 @@
             android:id="@+id/pager"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:elevation="@dimen/elevation_small" />
+            android:elevation="@dimen/elevation_under" />
     </android.support.v4.widget.NestedScrollView>
 
     <android.support.design.widget.AppBarLayout
@@ -30,7 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
-            android:elevation="@dimen/elevation_medium"
+            android:elevation="@dimen/elevation_middle"
             app:contentScrim="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|enterAlways">
 
@@ -72,4 +72,18 @@
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:contentDescription="@string/action_share"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/fab"
+        android:src="@drawable/ic_share"
+        app:elevation="@dimen/elevation_over"
+        app:fabSize="normal"
+        app:layout_anchor="@id/app_bar"
+        app:layout_anchorGravity="bottom|end"/>
 </android.support.design.widget.CoordinatorLayout>

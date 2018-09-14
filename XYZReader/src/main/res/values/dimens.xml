@@ -16,10 +16,10 @@
     <dimen name="text_large">18sp</dimen>
     <dimen name="text_xlarge">24sp</dimen>
 
-    <dimen name="elevation_small">4dp</dimen>
-    <dimen name="elevation_medium">4dp</dimen>
+    <dimen name="elevation_under">2dp</dimen>
+    <dimen name="elevation_middle">4dp</dimen>
+    <dimen name="elevation_over">6dp</dimen>
 
-    <dimen name="fab_elevation">2dp</dimen>
     <dimen name="fab_press_translation_z">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
 
